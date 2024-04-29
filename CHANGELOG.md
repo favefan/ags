@@ -8,6 +8,7 @@
 - Network.frequency
 - recursive Utils.monitorFile
 - add: Network.vpn
+- improve exec utils
 
 ## Fixes
 
@@ -16,10 +17,12 @@
 - hyprland: active client empty on window close
 - dispose signal on Variable
 - skip unnecessary value setting in Utils.derive and Utils.merge
+- properly log errors from Variables
 
 ## Breaking Changes
 
 - Stream.is_muted corresponds to actual mute state
+- Utils.exec returns stderr on error
 
 # 1.8.0
 
